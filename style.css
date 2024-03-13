@@ -1,0 +1,583 @@
+.cv {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.cv .div {
+  background-color: #ffffff;
+  border: 9px solid;
+  border-color: #e9dcff;
+  width: 595px;
+  height: 842px;
+  position: relative;
+}
+
+.cv .view {
+  position: absolute;
+  width: 166px;
+  height: 166px;
+  top: 39px;
+  left: 41px;
+  border-radius: 83px;
+  border: 3.67px solid;
+  border-color: #e9dcff;
+}
+
+.cv .ellipse {
+  position: absolute;
+  width: 153px;
+  height: 153px;
+  top: 3px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.cv .basic {
+  display: flex;
+  flex-direction: column;
+  width: 289px;
+  height: 190px;
+  align-items: flex-start;
+  gap: 3px;
+  padding: 10px;
+  position: absolute;
+  top: 39px;
+  left: 255px;
+}
+
+.cv .frame {
+  display: flex;
+  width: 227px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 1px 0px 0px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.cv .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  margin-left: -2px;
+  margin-right: -2px;
+  font-family: "Post No Bills Jaffna-Bold", Helvetica;
+  font-weight: 700;
+  color: #4d4643;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  font-family: "Shippori Mincho", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .view-2 {
+  position: relative;
+  width: 162px;
+  height: 38px;
+}
+
+.cv .group {
+  position: absolute;
+  width: 162px;
+  height: 16px;
+  top: 0;
+  left: 2px;
+}
+
+.cv .jvanatskaj-gmail-com {
+  position: absolute;
+  top: 0;
+  left: 22px;
+  font-family: "Signika Negative SC-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .span {
+  font-family: "Signika Negative SC-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+}
+
+.cv .vector {
+  position: absolute;
+  width: 17px;
+  height: 14px;
+  top: 1px;
+  left: 0;
+}
+
+.cv .group-2 {
+  position: absolute;
+  width: 98px;
+  height: 19px;
+  top: 19px;
+  left: 0;
+}
+
+.cv .text-wrapper-3 {
+  position: absolute;
+  height: 16px;
+  top: 1px;
+  left: 24px;
+  font-family: "Signika Negative SC-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .phone {
+  position: absolute;
+  width: 21px;
+  height: 19px;
+  top: 0;
+  left: 0;
+}
+
+.cv .view-3 {
+  position: absolute;
+  width: 192px;
+  height: 194px;
+  top: 273px;
+  left: 41px;
+}
+
+.cv .text-wrapper-4 {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  font-family: "Cormorant SC", Helvetica;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .overlap-group {
+  height: 57px;
+  position: absolute;
+  width: 7px;
+  top: 47px;
+  left: 26px;
+}
+
+.cv .line {
+  position: absolute;
+  width: 1px;
+  height: 54px;
+  top: 3px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.cv .ellipse-2 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+  border-radius: 3.5px;
+  border: 1px solid;
+  border-color: #4e4744;
+}
+
+.cv .ellipse-3 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 50px;
+  left: 0;
+  background-color: #b4b4b4;
+  border-radius: 3.5px;
+  border: 1px solid;
+  border-color: #4e4744;
+}
+
+.cv .flexcontainer {
+  width: 155px;
+  height: 27px;
+  top: 42px;
+  left: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+}
+
+.cv .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Shippori Mincho", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .text-wrapper-5 {
+  font-weight: 600;
+}
+
+.cv .text-wrapper-6 {
+  font-family: "Cormorant SC", Helvetica;
+}
+
+.cv .flexcontainer-2 {
+  width: 76px;
+  height: 32px;
+  top: 93px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+}
+
+.cv .skill {
+  position: absolute;
+  width: 277px;
+  height: 173px;
+  top: 273px;
+  left: 267px;
+}
+
+.cv .group-wrapper {
+  position: absolute;
+  width: 186px;
+  height: 82px;
+  top: 45px;
+  left: 20px;
+}
+
+.cv .group-3 {
+  position: relative;
+  height: 82px;
+}
+
+.cv .group-4 {
+  position: absolute;
+  width: 98px;
+  height: 14px;
+  top: 0;
+  left: 0;
+}
+
+.cv .ellipse-4 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 4px;
+  left: 0;
+  background-color: #b4b4b4;
+  border-radius: 3.5px;
+  border: 1px solid;
+  border-color: #4e4744;
+}
+
+.cv .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 12px;
+  font-family: "Shippori Mincho", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .group-5 {
+  width: 64px;
+  top: 0;
+  position: absolute;
+  height: 14px;
+  left: 121px;
+}
+
+.cv .group-6 {
+  position: absolute;
+  width: 67px;
+  height: 14px;
+  top: 17px;
+  left: 121px;
+}
+
+.cv .group-7 {
+  width: 53px;
+  top: 34px;
+  position: absolute;
+  height: 14px;
+  left: 121px;
+}
+
+.cv .group-8 {
+  position: absolute;
+  width: 31px;
+  height: 14px;
+  top: 51px;
+  left: 121px;
+}
+
+.cv .group-9 {
+  position: absolute;
+  width: 48px;
+  height: 31px;
+  top: 51px;
+  left: 0;
+}
+
+.cv .group-10 {
+  position: absolute;
+  width: 35px;
+  height: 14px;
+  top: 17px;
+  left: 0;
+}
+
+.cv .group-11 {
+  position: absolute;
+  width: 95px;
+  height: 14px;
+  top: 17px;
+  left: 0;
+}
+
+.cv .group-12 {
+  position: absolute;
+  width: 46px;
+  height: 14px;
+  top: 34px;
+  left: 0;
+}
+
+.cv .view-4 {
+  position: absolute;
+  width: 192px;
+  height: 159px;
+  top: 500px;
+  left: 299px;
+}
+
+.cv .text-wrapper-8 {
+  position: absolute;
+  top: -1px;
+  left: 7px;
+  font-family: "Cormorant SC", Helvetica;
+  font-size: 15px;
+  white-space: nowrap;
+  font-weight: 400;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .m {
+  position: absolute;
+  width: 149px;
+  height: 19px;
+  top: 42px;
+  left: 7px;
+}
+
+.cv .text-wrapper-9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Shippori Mincho", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .group-13 {
+  position: absolute;
+  width: 67px;
+  height: 10px;
+  top: 5px;
+  left: 80px;
+}
+
+.cv .ellipse-5 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 0;
+  background-color: #b4b4b4;
+  border-radius: 5px;
+}
+
+.cv .ellipse-6 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 14px;
+  background-color: #b4b4b4;
+  border-radius: 5px;
+}
+
+.cv .ellipse-7 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 29px;
+  background-color: #b4b4b4;
+  border-radius: 5px;
+}
+
+.cv .ellipse-8 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 43px;
+  background-color: #b4b4b4;
+  border-radius: 5px;
+}
+
+.cv .ellipse-9 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 57px;
+  background-color: #b4b4b4;
+  border-radius: 5px;
+}
+
+.cv .e {
+  position: absolute;
+  width: 128px;
+  height: 20px;
+  top: 68px;
+  left: 28px;
+}
+
+.cv .text-wrapper-10 {
+  width: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Shippori Mincho", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.cv .group-14 {
+  position: absolute;
+  width: 67px;
+  height: 10px;
+  top: 5px;
+  left: 59px;
+}
+
+.cv .ellipse-10 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 0;
+  left: 57px;
+  background-color: #4e4744;
+  border-radius: 5px;
+}
+
+.cv .view-5 {
+  position: absolute;
+  width: 192px;
+  height: 194px;
+  top: 485px;
+  left: 41px;
+  overflow: hidden;
+}
+
+.cv .overlap {
+  height: 141px;
+  position: absolute;
+  width: 7px;
+  top: 47px;
+  left: 26px;
+}
+
+.cv .img {
+  position: absolute;
+  width: 1px;
+  height: 138px;
+  top: 3px;
+  left: 3px;
+  object-fit: cover;
+}
+
+.cv .ellipse-11 {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  top: 79px;
+  left: 0;
+  background-color: #b4b4b4;
+  border-radius: 3.5px;
+  border: 1px solid;
+  border-color: #4e4744;
+}
+
+.cv .flexcontainer-3 {
+  width: 160px;
+  height: 66px;
+  top: 42px;
+  left: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+}
+
+.cv .text-wrapper-11 {
+  font-weight: 600;
+  font-size: 10px;
+}
+
+.cv .flexcontainer-4 {
+  width: 111px;
+  height: 51px;
+  top: 122px;
+  left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  position: absolute;
+}
